@@ -1,0 +1,430 @@
+/* utility classes */
+.profile-btn {
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 5px;
+  display: block;
+  /* margin: auto ; */
+  cursor: pointer;
+}
+
+#log-form .profile-btn {
+  margin: 1rem auto;
+}
+
+#reg-form .profile-btn {
+  margin: 1rem auto;
+}
+
+.pdf-btn {
+  margin-left: 80%;
+}
+
+.form-link a {
+  color: rgb(0, 89, 255);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.form-link a:hover {
+  color: rgb(0, 54, 155);
+}
+
+.profile-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-gap: 1rem;
+  height: 90vh;
+  width: 98vw;
+}
+
+.report-grid {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-gap: 1rem;
+  overflow: hidden;
+}
+
+/* side bar */
+.mob-drop-down {
+  display: none;
+}
+.side-menu {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 2rem;
+  background: rgb(206, 206, 206);
+}
+
+.side-menu a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: block;
+  transition: all 0.3s;
+  padding: 9px;
+  color: #444;
+  font-size: 1.1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-menu .a{
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.side-selected {
+  border: 2px solid #f00;
+  transform: scale(1.1) translatex(10px);
+}
+
+.side-menu a:hover {
+  border: 2px solid #f00;
+  transform: scale(1.1) translatex(10px);
+}
+
+/* registration form */
+.signin-form {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.signin-form .message {
+  color: #f00;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.signin-form .error {
+  color: #f00;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.signin-form .star-error {
+  font-size: 1.2rem;
+}
+
+.form-container {
+  border-radius: 5px;
+  background-color: rgb(252, 252, 252);
+  border-top: 10px solid #f00;
+  border-bottom: 10px solid #f00;
+}
+.signin-lead {
+  font-weight: bold;
+}
+
+.signin-form .input-container {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.signin-form .profile-input, .signin-form select, .signin-form label, .signin-form .input-error {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.signin-form .profile-input, .signin-form select {
+  outline: none;
+  border: none;
+  border: 1px solid rgb(46, 46, 46);
+  padding: 7px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.signin-form label {
+  font-weight: bold;
+}
+
+.signin-form .profile-input:hover, .signin-form select:hover {
+  border: 3px solid #5f00f8;
+  padding: 5px;
+}
+
+.signin-form .profile-input:focus, .signin-form select:focus {
+  padding: 5px;
+  border: 3px solid #f00;
+}
+
+/* slide-show */
+.contact-box {
+  background: #f00;
+  width: 450px;
+  height: 200px;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.contact-box a {
+  width: 30%;
+  margin: auto;
+  background: #fff;
+  color: #f00;
+}
+
+/* silde */
+.slide-container {
+  width: 450px;
+  height: 350px;
+  border-radius: 5px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.box {
+  position: absolute;
+  width: 500%;
+  height: 350px;
+  display: flex;
+  animation:  slide 15s cubic-bezier(0.77, 0, 0.175, 1) infinite 0.8s;
+}
+
+.slide {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes slide {
+  0% {left: 0px;}
+  24% {left: -100%;}
+  48% {left: -200%;}
+  72% {left: -300%;}
+  96% {left: -400%;}
+  100% {left: -400%;}
+}
+
+/* slide-1 */
+.slide-1 {
+  width: 93%;
+  height: 100%;
+  background: url(../img/showcase.jpg);
+  color: #fff;
+
+}
+.slide-1 .btn, .slide-4 .btn {
+  width: 50%;
+  margin: auto;
+}
+
+/* slide-2 */
+.slide-2 {
+  background: url(../img/item3.jpg);
+}
+/* slide-3 */
+.slide-3 {
+  background: url(../img/me-progress.jpg);
+}
+/* slide-4 */
+.slide-4 {
+  background: url(../img/item3.jpgs);
+}
+.slide-4 img {
+  width: 170px;
+  height: 170px;
+  display: block;
+  margin: auto;
+} 
+.slide-4 h3 {
+  margin-top: 0.5rem;
+}
+/* slide-5 */
+.slide-5 {
+  background: #000;
+}
+
+/* login */
+#login-para {
+  font-size: 1.2rem;
+  background-color: rgb(206, 206, 206);
+  color: #f00;
+  padding: 5px 10px;
+}
+
+/* view */
+.profile-view {
+  margin: 2rem 6rem;
+  font-size: 1.1rem;
+}
+
+/* update */
+.update-form .input-container {
+  width: 100%;
+}
+
+.update-form .profile-input, .update-form select, .update-form label {
+  width: 100%;
+}
+
+.back-btn {
+  background: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border: 2px solid #f00;
+}
+
+.update-btn {
+  background: #f00;
+  color: #fff;
+  cursor: pointer;
+}
+
+.two-btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signin-form .update-error {
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* report */
+#table-heading {
+  font-size: 2.5rem;
+  color: #f00;
+  margin: 2rem ;
+  text-align: center;
+}
+
+.filter-area {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 4rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.pdf-message {
+  display: none;
+}
+
+.filter-label{
+  display: block;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.filter-item {
+  margin-right: 1.5rem;
+}
+
+.filter-item select {
+  padding: 7px 50px;
+  border: 1px solid #fa0000;
+  outline: none;
+  font-size: 1.2rem;
+  background: #e7e2e2;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.search-btn {
+  background-color: #f00;
+  color: #fff;
+  cursor: pointer;
+}
+
+#table {
+  margin: 4rem;
+}
+
+table, th, td{
+  border: solid rgb(122, 119, 119) 2px;
+  border-collapse: collapse;
+}
+
+table thead tr{
+  background-color: #e7e2e2;
+}
+
+table thead tr th, table tbody tr td{
+  padding: 10px 2rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+table thead tr th {
+  color: #ff0000;
+}
+
+table tbody tr td {
+  font-weight: bold;
+}
+
+/* Log out */
+.logout-box {
+  border: 6px solid #f00;
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.logout-box .logout-cancel {
+  width: 100%;
+  text-align: right;
+  display: block;
+  margin: 0.5rem 1rem 0 0 ;
+}
+
+.logout-box #x {
+  color: #f00;
+  border: 1px solid #f00;
+  padding: 3px;
+  margin: 5px;
+}
+
+.logout-btns {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.logout-btns .btns  {
+  background-color: #ffffff;
+  color: #ff0000;
+  border: #f50000 2px solid;
+  padding: 12px 10px;
+  margin: 1rem ;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  text-align: center;
+}
+
+.logout-btns .btns:hover {
+  border: #ffffff 2px solid;
+  background-color: #f50000;
+  color: #ffffff;
+}
+
+.login-show {
+  background: #fff;
+  padding: 5px 10px;
+}
+
+.logout-msg {
+  font-size: 1rem;
+}

@@ -1,0 +1,1238 @@
+#contact-sub-para {
+  display: none;
+}
+.side-menu h2 {
+  font-size: 1.2rem;
+}
+
+  /* Who we */
+  .who-we {
+    height: 85vh;
+  }
+
+  /* Feedback */
+  .testimonial-grid div div p {
+    margin-left: 10px;
+    line-height: 20px;
+  }
+
+  .aboutorg-a {
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 2rem;
+    margin: 2rem;
+  }
+
+  @media(max-width: 1380px) {
+    /* profile */
+    .pass-form {
+      width: 100%;
+    }
+   }
+
+  @media(max-width: 1290px) {
+    /* profile */
+    .profile-view h3 {
+      font-size: 1.07rem;
+    }
+    .update-form {
+      width: 100%;
+    }
+    .pass-form .profile-view {
+      margin: 1rem 2rem;
+    }
+    .logout-btns  {
+      width: 70%;
+    }
+  }
+
+  @media(max-width: 1150px) {
+    .section-b, .aboutMe {
+      margin: 0rem 2.5rem;
+    }
+    .section-c, .what-do-grid, .feedback-a, .feedback-b  {
+      margin: 3rem 2.5rem;
+    }
+    .section-f {
+      padding: 2rem 3rem;
+    }
+    .contact-a {
+      margin: 1rem 2.5rem;
+    }
+    .who-we {
+      flex-direction: column;
+      height: auto;
+    }
+    .who-we img {
+      width: 100%;
+      height: 70vh;
+    }
+    .showcase-content h1 {
+      font-size: 3.2rem;
+    }
+    /* login */
+    .profile-grid {
+      grid-template-columns: 1fr 3fr;
+      grid-gap: 1rem;
+      height: auto;
+    }
+    .side-menu {
+      width: 100%;
+    }
+    .signin-form {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .slide-container {
+      position: relative;
+    }
+    .right-sidebar {
+      grid-column: 1 / span 2;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      padding: 1rem 0;
+    }
+    #contact-sub-para {
+      display: inline;
+    }
+    .contact-box {
+      width: 450px;
+      height: 350px;
+    }
+    .contact-box p {
+      margin: 1.7rem 0;
+      line-height: 1.7rem;
+    }
+     .form-container {
+      margin-top: 1rem;
+    }
+    .logout-msg {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+    .profile-view h3 {
+      font-size: 1.2rem;
+    }
+    .pass-form .profile-view {
+      margin: 1rem 3rem;
+    }
+    /* report */
+    .report-grid {
+      grid-template-columns: 2fr 6fr;
+    }
+    #table-heading {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+    .filter-area {
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+    }
+    .filter-item {
+      margin-right: 0.4rem;
+    }
+    .filter-item select {
+      padding: 7px 10px;
+      margin-right: 20px;
+    }
+    #table {
+      margin: 2rem;
+    }
+    table thead tr th, table tbody tr td{
+      padding: 5px 10px;
+      font-size: 1rem;
+      text-transform: capitalize;
+    }
+    .pdf-btn {
+      margin-left: 75%;
+    }
+  }
+
+  @media(max-width: 950px) {
+    .section-b {
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+    }
+    .testimonial-grid {
+      grid-template-columns: repeat(2,1fr);
+      grid-gap: 1rem;
+    }
+    .org-sub-para {
+      display: none;
+    }
+    /* profile */
+    .side-menu h2 {
+      font-size: 1rem;
+    }
+    #login-para {
+      font-size: 1rem;
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .contact-box {
+      width: 350px;
+    }
+    .contact-box p {
+      margin: 1rem 0;
+      line-height: 1.3rem;
+      text-align: justify;
+    }
+    .contact-box .profile-btn {
+      padding: 8px;
+    }
+    .pdf-btn {
+      margin-left: 5%;
+      margin-bottom: 20px;
+    }
+    .search-btn, .pdf-btn {
+      font-size: 1rem;
+      padding: 4px 7px;
+    }
+    .filter-item select {
+      padding: 4px 6px;
+      margin-right: 10px;
+      font-size: 1rem;
+    }
+  }
+
+  @media(max-width: 770px) {
+    .showcase-content h1 {
+      font-size: 2.5rem;
+    }
+    .items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .item:last-child, #join-footer-box {
+      display: none;
+    }
+    .what-do-grid, .aboutMe-c, .aboutorg-a {
+      grid-template-columns: 1fr;
+      grid-gap: 1rem;
+    }
+    .who-we img {
+      height: 40vh;
+    }
+    .section-f {
+      grid-template-columns: repeat(3,1fr);
+    }
+    .aboutMe-a .profile {
+      grid-template-columns: 1fr 5fr;
+      grid-gap: 1rem;
+    }
+    .profile img {
+      width: 200px;
+      height: 200px;
+    } 
+    .profile > div {
+      padding: 8px;
+    }
+    .profile > div h3 {
+      font-size: 1.2rem;
+      margin-top: 5px;
+    }
+    .profile > div p {
+      line-height: 1.3rem;
+      margin-top: 1rem;
+    }
+    .aboutMe-b h1 {
+      font-size: 1.8rem;
+    }
+    .aboutMe-e {
+      grid-gap: 10px;
+    } 
+    .aboutMe-e img {
+      width: 100%;
+      padding: 1rem 0;
+    }
+    .profile-box-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+    }
+    .section-b > div {
+      padding: 1rem 1.5rem;
+      font-size: 1.1rem;
+    }
+    .nav-links ul li:hover ul {
+      width: 200px;
+    }
+    /* profile */
+    .profile-grid {
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 0rem;
+      width: 95vw;
+    }
+    .signin-form {
+      width: 95%;
+      margin: 0 auto;
+    }
+    .reg-form {
+      margin-bottom: 1rem;
+    }
+    .right-sidebar {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      background: url(../img/me-progress.jpg) no-repeat center center/cover;
+    }
+    .contact-box {
+      width: 80%;
+      height: auto;
+      margin-top: 1rem;
+    }
+    .contact-box p {
+      margin: 0.3rem 0;
+    }
+    .contact-box .profile-btn {
+      padding: 8px;
+      text-align: center;
+    }
+    .profile-view h3 {
+      font-size: 1.07rem;
+    }
+    .repo-side-menu {
+      display: none;
+    }
+    /*Report Drop down */
+    .repo-drop {
+      display: block;
+      text-align: center;
+      width: 40%;
+      margin: 5px auto; 
+      cursor: pointer;   
+    }
+    .repo-drop > ul > li {
+      border: 3px solid #f00;
+      border-radius: 10px;
+    } 
+    .repo-drop a{
+      color: #444;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    .repo-drop ul li ul {
+      display: none;
+    }
+    .repo-drop > ul li:hover ul {
+      display: block;
+      position: absolute;
+      background: rgb(0, 0, 0);
+      border: 3px solid #f00;
+      width: 40%;
+      border-radius: 10px;
+      padding: 2px;
+    } 
+    .repo-drop > ul li:hover ul a {
+      color: #fff;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem;
+    }
+    .repo-drop > ul li:hover ul li a:hover {
+      background: #fff;
+      color: #000;
+      border-radius: 10px;
+    }
+    .report-grid {
+      grid-template-columns: 1fr;
+    }
+    .login-show {
+      background: rgb(255, 0, 0);
+      color: rgb(255, 255, 255);
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media(max-width: 700px) {
+    .contact-a {
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+    }
+    .address-boxes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 5px;
+    }
+    .address-box i, .aboutMe-c i{
+      font-size: 2rem;
+    }
+    .address-box h1{
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+    .address-box p{
+      font-size: 0.9rem;
+    }
+    .aboutMe-c {
+      grid-gap: 10px;
+    }
+    .aboutMe-c h1{
+      margin: 5px 0;
+    }
+    .aboutMe-c p{
+      padding-bottom: 1rem;
+    }
+    /* profile */
+    .side-menu {
+      display: none;
+    }
+    .profile-grid {
+      grid-template-columns: 1fr;
+    }
+    .signin-form {
+      grid-column: 1 / span 2;
+      width: 80%;
+      margin-bottom: 1rem;
+    }
+    /* Drop down */
+    .mob-drop-down {
+      display: block;
+      text-align: center;
+      width: 40%;
+      margin: 5px auto; 
+      cursor: pointer;   
+    }
+    .mob-drop-down > ul > li {
+      border: 3px solid #f00;
+      border-radius: 10px;
+    } 
+    .mob-drop-down a{
+      color: #444;
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+    .mob-drop-down ul li ul {
+      display: none;
+    }
+    .mob-drop-down > ul li:hover ul {
+      display: block;
+      position: absolute;
+      background: rgb(0, 0, 0);
+      border: 3px solid #f00;
+      width: 40%;
+      border-radius: 10px;
+      padding: 2px;
+    } 
+    .mob-drop-down > ul li:hover ul a {
+      color: #fff;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem;
+    }
+    .mob-drop-down > ul li:hover ul li a:hover {
+      background: #fff;
+      color: #000;
+      border-radius: 10px;
+    }
+    .logout-box {
+      margin: 0.5rem auto;
+    }
+    #table {
+      margin: 1rem;
+    }
+    table thead tr th, table tbody tr td{
+      padding: 5px 10px;
+      font-size: 0.9rem;
+      text-transform: capitalize;
+    }
+  }
+
+  @media(max-width: 650px) {
+    .showcase-content h1 {
+      font-size: 2rem;
+    }
+    .showcase-content p {
+      font-size: 1rem;
+    }
+  }
+
+  @media(max-width: 590px) {
+    .section-a nav .header, .slide-5 .header {
+      font-size: 0.8rem;
+    }
+    .section-b p {
+      margin: 5px 0 5px 0;
+      line-height: 1.7rem;
+    }
+    .section-e {
+      padding: 1rem;
+    }
+    .section-e h1 {
+      margin-bottom: 5px;
+    }
+    .section-e .btns .btn {
+      font-size: 1rem;
+      padding: 5px;
+    }
+    .social-media a {
+      font-size: 1rem;
+    }
+    .section-f p {
+      line-height: 1.2rem;
+      font-size: 0.8rem;
+      margin-bottom: 8px;
+    }
+    .section-f h3 {
+      margin-bottom: 7px;
+      font-size: 1rem;
+    }
+    .address-box p{
+      font-size: 0.7rem;
+    }
+    .contact-a {
+      margin: 0.5rem 1.5rem;
+    }
+    .testimonial-grid, .aboutMe-a .profile {
+      grid-template-columns: 1fr;
+      grid-gap: 5px;
+    }
+    .aboutMe-b h1, .aboutMe-d h1, .section-e h1 {
+      font-size: 1.4rem;
+    }
+    .aboutMe-d h4, .section-e h4{
+      font-size: 1rem;
+    }
+    .aboutorg-a h1 {
+      font-size: 2rem;
+    }
+    /* profile */
+    .mob-drop-down > ul li:hover ul a {
+      border: 2px solid #fff;
+      border-radius: 10px;
+      margin-bottom: 4px;
+    }
+    .signin-form {
+      width: 90%;
+    }
+    .mob-drop-down, .mob-drop-down > ul li:hover ul{
+      width: 60%;   
+    }
+    #reg-form .profile-input, #reg-form select, #reg-form label {
+      width: 90%;
+    }
+    .logout-content h1 {
+      font-size: 1.7rem;
+    }
+    #table-heading {
+      font-size: 1.7rem;
+    }
+    table thead tr th, table tbody tr td{
+      padding: 5px;
+      font-size: 0.8rem;
+      text-transform: capitalize;
+    }
+  }
+
+  @media(max-width: 570px) { 
+    .section-a nav {
+      justify-content: center;
+    }
+    .section-a nav .logo, .slide-5 .logo {
+      width: 30px;
+      height: 30px;
+    }
+    .section-a nav .header, .slide-5 .header {
+      font-size: 0.6rem;
+      margin-right: 1.5rem;
+    }
+    .nav-links ul li:hover ul {
+      width: 150px;
+    }  
+    .nav-links ul li {
+      padding: 0px 10px 5px 10px;
+    }
+    .nav-links ul li ul, .showcase-content p, .badge {
+      font-size: 0.8rem;
+    }
+    .showcase-content h1 {
+      font-size: 1.5rem;
+    }
+    .btn {
+      padding: 4px 8px;
+      font-size: 1rem;
+    }
+    .section-b > div {
+      padding: 8px 1rem;
+      font-size: 0.9rem;
+    }
+    .section-b p {
+      margin: 10px 0;
+      line-height: 1.3rem;
+    }
+    .container {
+      height: 80vh;
+    }
+    .section-c > h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .section-c > p {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+    .items {
+      grid-template-columns: 1fr ;
+    }
+    .item {
+      margin: 0.5rem 4rem;
+    }
+    .item-image {
+      height: 200px;
+    }
+    .item-image img {
+      height: 100%;
+    }
+    .item-text-title {
+      font-size: 1.3rem;
+    }  
+    .item-text-category {
+      font-size: 1rem;
+    }
+    .section-d .what-do h1 {
+      padding-top: 0.5rem;
+      font-size: 1.7rem;
+    }
+    .what-do-grid {
+      margin: 1rem 2rem;
+    }
+    .what-do-grid > div div h4 {
+      margin-bottom: 0.4rem;
+      font-size: 1rem;
+    }
+    .what-do-grid > div div p {
+      font-size: 0.9rem;
+    }   
+    #who-we-text h1 {
+      font-size: 1.7rem;
+    }
+    #who-we-text p {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+      line-height: 1.6rem;
+    }
+    #who-we-text ul li {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .who-we img {
+      height: 50vh;
+    }
+    .section-e .btns .btn {
+      font-size: 0.8rem;
+    }
+    #owner-sub-content {
+      display: none;
+    }
+    .secondary-container {
+      height: 50px;
+    }
+    .selected, .unselected {
+      padding: 8px;
+      font-size: 0.85rem;
+    }
+    .aboutorg-a h1 {
+      font-size: 1.5rem;
+      padding-bottom: 1rem;
+    }
+    .aboutorg-a p {
+      font-size: 15px;
+      line-height: 20px;
+    }
+    .profile-box {
+      width: 300px;
+      height: 320px;
+    }
+    .profile-box .owner-img {
+      width: 180px;
+      height: 180px;
+      margin: 1rem auto;
+    }
+    .login-message {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media(max-width: 485px) {
+    .profile-view {
+      margin: 0 2rem;
+    }
+  }
+
+  @media(max-width: 450px) { 
+    .section-a nav .logo, .slide-5 .logo {
+      width: 20px;
+      height: 20px;
+    }
+    .section-a nav .header, .slide-5 .header {
+      font-size: 0.5rem;
+      margin-right: 1rem;
+    }
+    .nav-links ul li:hover ul {
+      width: 120px;
+    }  
+    .nav-links ul li {
+      padding: 0px 7px 5px 7px;
+      font-size: 0.8rem;
+    }
+    .nav-links ul li ul li, .showcase-content p{
+      font-size: 0.7rem;
+    }
+    .nav-links ul li:hover ul li {
+      padding: 0.5rem 10px;
+    }
+    .showcase-content h1 {
+      font-size: 1.2rem;
+    }
+    .section-b {
+      margin: 0rem 1rem;
+    }
+    .items {
+      grid-template-columns: repeat(2, 1fr) ;
+      grid-gap: 3px;
+    }
+    .item {
+      margin: 0;
+    }
+    .item-text-title {
+      font-size: 1.1rem;
+    }  
+    .item-text-category, .what-do-grid > div div p, .what-do-grid > div div h4, #who-we-text p, #who-we-text ul li, .section-f h3{
+      font-size: 0.8rem;
+    }
+    .what-do-grid > div div h4 {
+      margin-bottom: 0.2rem;
+    }  
+    #who-we-text p {
+      margin: 0.5rem 0;
+      line-height: 1.5rem;
+    }
+    #who-we-text ul li {
+      margin-bottom: 0.4rem;
+      padding-bottom: 0.4rem;
+    }
+    .who-we img {
+      height: 30vh;
+    }
+    .progress, .aboutMe-d .progress {
+      height: 0.7rem;
+      margin: 0.1rem auto 1rem auto;
+    }
+    .section-e .btns .btn {
+      font-size: 0.6rem;
+    }
+    .section-f {
+      padding:  15px 14px;
+      grid-gap: 10px;
+    }
+    .section-f p {
+      line-height: 1.2rem;
+      font-size: 0.6rem;
+      margin-bottom: 6px;
+    }
+    .section-f h3 {
+      margin-bottom: 7px;
+      font-size: 0.9rem;
+    }  
+    .social-media {
+      justify-content: flex-start;
+    }     
+    .social-media a, .site-links a{
+      font-size: 0.8rem;
+    }
+    .section-f .site-links a, .social-media a {
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.4rem;
+    }
+    .section-f input {
+      margin-bottom: 0.3rem ;
+      padding: 1px;
+      width: 100%;
+      font-size: 0.6rem;
+    }
+    .footer-btn {
+      padding: 2px 0;
+      width: 100%;
+      font-size: 1.4rem;
+    }
+    /* Contact */
+    .contact-a h1:first-child {
+      margin: 0.5rem 0;
+      font-size: 1.3rem;
+    }
+    .contact-a p{
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    .input {
+      margin-bottom: 1rem;
+      padding: 5px;
+      font-size: 0.9rem;
+    }
+    .address-boxes {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 5px;
+    }
+    .address-box {
+      margin-bottom: 0rem;
+    }
+    .address-box:last-child {
+      grid-column: 1 / span 2;
+    }
+    .address-box:last-child p {
+      font-size: 0.9rem;
+    }
+    .address-box i{
+      font-size: 1.5rem;
+    }
+    .address-box h1{
+      font-size: 1rem;
+      margin: 5px 0;
+    }
+    .address-box p{
+      font-size: 0.7rem;
+      margin: 0;
+    }
+    .btns .btn {
+      margin-top: 0.5rem;
+      padding: 4px 7px;
+      font-size: 0.8rem;
+    }
+    /* Feed back */
+    .feedback-a {
+      margin: 0.5rem;
+    }
+    .feedback-a > h1 {
+      font-size: 1.4rem;
+      margin-bottom: 5px;
+    }  
+    .feedback-a > p {
+      margin: 0.5rem 0;
+      font-size: 1.2rem;
+    }
+    .testimonial-grid > div > p {
+      margin-top: 0.5rem;
+      line-height: 1.2rem;
+      padding: 7px;
+    }
+    .feedback-b {
+      margin: 2rem 1rem;
+    }
+    .feedback-b h1 {
+      font-size: 1.4rem;
+    }
+    .feedback-b input, .feedback-b textarea {
+      width: 100%;
+    }
+    /* About me */
+    .aboutMe-a h1{
+      font-size: 1.3rem;
+      margin: 0.5rem 0;
+    }
+    .aboutMe-a p {
+      font-size: 0.8rem;
+    }
+    .profile {
+      margin: 1rem 0;
+    }
+    .profile img {
+      width: 150px;
+      height: 200px;
+    }
+    .profile > div h3 {
+      font-size: 1rem;
+      margin-top: 0;
+    }
+    .profile > div p {
+      line-height: 1.2rem;
+      margin-top: 0.4rem;
+    }
+    .aboutMe-b {
+      margin: 1.5rem 0;
+    }
+    .aboutMe-b h1 {
+      font-size: 1rem;
+    }
+    .aboutMe {
+      margin: 0 1rem;
+    }
+    .aboutMe-c {
+      font-size: 1rem;
+    }
+    .aboutMe-c h1{
+      margin: 5px 0;
+      font-size: 1rem;
+    }
+    .aboutMe-c p{
+      padding-bottom: 1rem;
+      font-size: 0.8rem;
+    }
+    .aboutMe-d {
+      margin: 1px 0;
+    }
+    .aboutMe-d h1 {
+      font-size: 1rem;
+    }
+    .aboutMe-d h4{
+      font-size: 0.8rem;
+    }
+    .aboutMe-d h4:first-child {
+      margin-top: 1rem;
+    }
+    .aboutMe-e img {
+      padding: 10px 0;
+    }
+    .aboutorg-a {
+      margin: 1rem;
+    }
+    .aboutorg-a .content {
+      padding: 1rem 1.8rem;
+    }
+    .aboutorg-a h1 {
+      font-size: 1rem;
+      padding-bottom: 0.4rem;
+    }
+    .aboutorg-a p {
+      font-size: 13px;
+      line-height: 17px;
+    }
+    .aboutorg-a .join-box {
+      padding: 1rem 1.5rem;
+    }
+    .aboutorg-a .join-box h3 {
+      padding-bottom: 0.4rem;
+    }
+    .profile-box {
+      width: 270px;
+      height: 260px;
+    }
+    .profile-box .owner-img {
+      width: 150px;
+      height: 150px;
+      margin: 0.5rem auto;
+    }
+    .pro-content h3{
+      font-size: 1rem;
+    }
+    /* profile */
+    .profile-grid {
+      width: 95%;
+    }
+    #login-para {
+      font-size: 0.6rem;
+      margin: 0.5rem 0;
+    }
+    .form-container {
+      margin: 0;
+    }
+    .mob-drop-down a{
+     font-size: 1rem;
+    }
+    .mob-drop-down > ul li:hover ul a {
+      font-size: 0.8rem;
+    }
+    .signin-form {
+      width: 80%;
+    }
+    .signin-form .message, .signin-form .star-error {
+      font-size: 1rem;
+    }
+    .signin-form .error {
+      font-size: 0.6rem;
+    }
+    .form-container h2 {
+      font-size: 1rem;
+      padding: 5px  0;
+    }
+    .login-message {
+      font-size: 0.9rem;
+    }
+    .signin-lead {
+      font-size: 0.8rem;
+      padding: 5px 0;
+    }
+    .signin-form .profile-input, .signin-form select {
+      padding: 3px;
+      font-size: 0.8rem;
+    }
+    .signin-form label {
+      font-size: 0.8rem;
+    } 
+    .signin-form .profile-input:hover, .signin-form select:hover {
+      padding: 1px;
+    }
+    .bottom-line {
+      width: 50px;
+    }
+    .profile-btn {
+      padding: 5px 10px;
+      font-size: 0.8rem;
+    }
+    .signin-form .lead {
+      font-size: 0.8rem;
+    }
+    .right-sidebar {
+      background: none;
+    }
+    .contact-box {
+      width: 94%;
+      padding: 10px;
+    }
+    #contact-sub-para {
+      display: none;
+    }
+    .contact-box p, .contact-box h2{
+      padding: 0;
+      font-size: 1rem;
+    }
+    .contact-box p {
+      font-size: 0.8rem;
+    }
+    .slide-container {
+      width: 330px;
+      height: 340px;;
+    }
+    .slide-4 p {
+      margin: 5px 0;
+      font-size: 1rem;
+    }
+    .without-shop h2 {
+      font-size: 0.8rem;
+    }
+    .profile-view {
+      margin: 0 1rem;
+    }
+    .profile-view h3 {
+      font-size: 0.8rem;
+    }
+    .profile-btns .btn {
+      width: 50%;
+      margin: 10px auto;
+    }
+    .sucess-login-msg {
+      font-size: 1rem;
+    }
+    .two-btn .btn {
+      font-size: 0.8rem;
+    }
+    .pass-form .profile-view {
+      margin: 1rem;
+    }
+    .logout-msg {
+      margin: 0;
+    }
+    .logout-form {
+      width: 100%;
+    }
+    .logout-box {
+      border: 3px solid #f00;
+      font-size: 1rem;
+      width: 90%;
+    }
+    .logout-btns {
+      width: 100%;
+    }
+    .logout-btns .btns  {
+      padding: 3px 6px;
+      margin: 1rem ;
+      font-size: 1rem;
+    }
+    .logout-content h1 {
+      font-size: 1.2rem;
+      padding-bottom: 2px;
+    }
+    .logout-content p {
+      margin: 10px 0;
+    }
+    /* Report */
+    #table-heading {
+      font-size: 1rem;
+      margin: 0.5rem 0;
+    }
+    .pdf-message {
+      display: block;
+      font-size: 7px;
+      margin-left: 5%;
+    }
+    .pdf-btn {
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+    .filter-area {
+      margin: 0.8rem; 
+      display: block;
+    }
+    .filter-item {
+      margin-right: 0.2rem;
+      display: inline-block;
+    }
+    .filter-item select, .filter-item label {
+      padding: 2px 5px;
+      margin-right: 5px;
+      font-size: 0.7rem;
+    }
+    #table {
+      margin: 0.5rem;
+      margin-top: 1.5rem;
+    }
+    table thead tr th, table tbody tr td{
+      padding: 5px 7px;
+      font-size: 0.6rem;
+    }
+    .search-btn {
+      margin-left: 60%;
+      font-size: 0.6rem;
+      margin-top: 5px;
+    }
+    .logout-msg {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media(max-width: 325px) {
+    .section-a nav .header, .slide-5 .header {
+      margin-right: 0.5rem;
+    }
+    .nav-links ul li:hover ul {
+      width: 105px;
+    }  
+    .nav-links ul li {
+      padding: 0px 4px 5px 4px;
+      font-size: 0.6rem;
+    }
+    .nav-links ul li ul li, .showcase-content p{
+      font-size: 0.6rem;
+    }
+    .showcase-content h1 {
+      font-size: 1rem;
+    }
+    .what-do-grid {
+      margin: 1rem;
+    }
+    .section-e .btns .btn {
+      font-size: 0.5rem;
+    }
+    .btns .btn {
+      padding: 4px 7px;
+      font-size: 0.7rem;
+    }
+    .testimonial-grid > div > p {
+      line-height: 1rem;
+      font-size: 0.8rem;
+    }
+    .testimonial-grid div div p {
+     font-size: 0.9rem;
+    }
+    /* profile */
+     .reg-form h2 {
+      font-size: 0.8rem;
+      padding: 5px  0;
+    }
+    .reg-form .signin-lead {
+      font-size: 0.7rem;
+    }
+    .without-shop h2 {
+      font-size: 0.7rem;
+    }
+    .login-message {
+      font-size: 0.8rem;
+    }
+    .two-btn .btn {
+      font-size: 0.7rem;
+    }
+    .pass-form .lead {
+      font-size: 0.6rem;
+    }
+    table thead tr th, table tbody tr td{
+      padding: 5px 2px;
+      font-size: 0.6rem;
+    }
+   }
+
+   @media(max-width: 285px) {
+    .section-e .btns .btn {
+      font-size: 7px;
+    }
+    .social-media a, .site-links a{
+      font-size: 0.6rem;
+    }
+    .section-f h3 {
+      font-size: 0.7rem;
+    }  
+    .section-f > div:last-child {
+      font-size: 1rem;
+    }
+    .btns .btn {
+      padding: 2px 4px;
+      font-size: 0.7rem;
+    }
+    .contact-a p{
+      font-size: 0.7rem;
+    }
+    .selected, .unselected {
+      padding: 5px;
+      font-size: 0.65rem;
+    }
+    .profile-box {
+      width: 240px;
+      height: 240px;
+    }
+    .pro-content h3{
+      font-size: 0.8rem;
+    }
+    .pro-content p {
+      font-size: 0.7rem;
+    }
+    /* profile */
+    #login-para {
+      font-size: 0.4rem;
+      margin: 0.3rem 0;
+    }
+    .signin-form .message, .signin-form .star-error {
+      font-size: 0.8rem;
+    }
+    .signin-form .error {
+      font-size: 0.5rem;
+    }
+    .form-container h2 {
+      font-size: 0.8rem;
+    }
+    .signin-form .profile-input, .signin-form select {
+      font-size: 0.6rem;
+    }
+    .signin-form label {
+      font-size: 0.6rem;
+    } 
+    .profile-btn {
+      font-size: 0.6rem;
+    }
+    .signin-form .lead {
+      font-size: 0.6rem;
+    }
+    .slide-container {
+      width: 280px;
+    }
+    .slide-4 .btn {
+      font-size: 0.7rem;
+    }
+    .without-shop h2 {
+      font-size: 0.6rem;
+    }
+    .login-message, .profile-btns .btn {
+      font-size: 0.7rem;
+    }
+    .two-btn .btn {
+      font-size: 0.6rem;
+    }
+    table thead tr th, table tbody tr td{
+      padding: 5px 2px;
+      font-size: 0.5rem;
+    }
+   }
+
+
+
+
